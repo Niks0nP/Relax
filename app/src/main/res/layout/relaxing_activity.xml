@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/relaxing_activity_scene">
+
+    <ImageView
+        android:id="@+id/relaxation_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/relaxation_background"
+        android:scaleType="centerCrop"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <ImageView
+        android:id="@+id/back_relaxing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/button_back_guide"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/blue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/blue"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <ImageView
+        android:id="@+id/green_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/green"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <ImageView
+        android:id="@+id/orange_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/orange"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <ImageView
+        android:id="@+id/red_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/red"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <ImageView
+        android:id="@+id/yellow_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/yellow"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="539dp" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
