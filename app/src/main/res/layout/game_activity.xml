@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/back_game"
+            android:layout_width="77dp"
+            android:layout_height="61dp"
+            android:background="@null"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/button_back_guide" />
+
+        <Chronometer
+            android:id="@+id/simpleChronometer"
+            android:layout_width="253dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:countDown="false"
+            android:fontFamily="@font/evolventa"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:id="@+id/gameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="100"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/leftButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:fontFamily="@font/evolventa"
+            android:text="@string/buttonLeft" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/rightButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:fontFamily="@font/evolventa"
+            android:text="@string/buttonRight" />
+    </LinearLayout>
+
+</LinearLayout>
