@@ -1,20 +1,32 @@
 package ru.com.relax;
 
 import android.content.Intent;
+<<<<<<< HEAD
 import android.graphics.Color;
+=======
+>>>>>>> main
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+<<<<<<< HEAD
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+=======
+>>>>>>> main
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+<<<<<<< HEAD
 public class Relaxing_activity extends AppCompatActivity implements View.OnClickListener{
 
     ImageView button_back, green_circle, red_circle, orange_circle, blue_circle, yellow_circle;
+=======
+public class Relaxing_activity extends AppCompatActivity {
+
+ImageView imageView;
+>>>>>>> main
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,8 +35,13 @@ public class Relaxing_activity extends AppCompatActivity implements View.OnClick
         Window g = getWindow();
         g.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
+<<<<<<< HEAD
         button_back = findViewById(R.id.back_relaxing);
         button_back.setOnClickListener(new View.OnClickListener() {
+=======
+        imageView = findViewById(R.id.back_relaxing);
+        imageView.setOnClickListener(new View.OnClickListener() {
+>>>>>>> main
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Relaxing_activity.this, MainActivity.class);
@@ -32,6 +49,7 @@ public class Relaxing_activity extends AppCompatActivity implements View.OnClick
             }
         });
 
+<<<<<<< HEAD
         green_circle = findViewById(R.id.green_button);
         green_circle.setOnClickListener(this);
         red_circle = findViewById(R.id.red_button);
@@ -85,5 +103,8 @@ public class Relaxing_activity extends AppCompatActivity implements View.OnClick
                     (int) (Math.random() * ((255) + 1)), (int) (Math.random() * ((255) + 1))));
             break;
         }
+=======
+
+>>>>>>> main
     }
 }

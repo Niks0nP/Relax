@@ -8,11 +8,14 @@
         motion:constraintSetStart="@id/start"
         motion:duration="1000">
        <KeyFrameSet>
+<<<<<<< HEAD
            <KeyAttribute
                motion:framePosition="30" />
            <KeyAttribute
                motion:framePosition="30"
                android:scaleY="1.2" />
+=======
+>>>>>>> main
        </KeyFrameSet>
     </Transition>
 

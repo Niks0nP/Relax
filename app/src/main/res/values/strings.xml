@@ -3,6 +3,7 @@
     <string name="todo">TODO</string>
     <string name="buttonStart">Начать</string>
     <string name="name_title">Руководство по снятию стресса</string>
+<<<<<<< HEAD
     <string name="buttonLeft">Влево</string>
     <string name="buttonRight">Вправо</string>
     <string name="login">Вход</string>
@@ -10,6 +11,8 @@
     <string name="email">Email</string>
     <string name="password">Пароль</string>
 
+=======
+>>>>>>> main
 
     <string-array name="numbers">
         <item>1)Отвлекитесь от стрессовой ситуации</item>
@@ -22,7 +25,11 @@
         <item>8)Ароматерапия</item>
         <item>9)Сьешьте жевательную резинку</item>
         <item>(Бонусный способ для любителей пива)</item>
+<<<<<<< HEAD
     </string-array>
+=======
+        </string-array>
+>>>>>>> main
 
     <string-array name="guide_text">
         <item>Чтобы отвлечься от стрессовой ситуации, необходимо подумать
